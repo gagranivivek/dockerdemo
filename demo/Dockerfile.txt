@@ -1,0 +1,11 @@
+FROM alpine
+
+RUN apk update 
+
+RUN apk add apache2
+
+RUN mkdir /run/apache2
+
+RUN echo "Welcome to Docker Session " > /var/www/localhost/htdocs/index.html
+
+CMD httpd -D FOREGROUND
