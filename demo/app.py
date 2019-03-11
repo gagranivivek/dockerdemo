@@ -5,8 +5,10 @@ app = Flask(__name__)
 
 # list of cat images
 images = [
-"https://cdn.pixabay.com/photo/2013/07/25/13/01/stones-167089_960_720.jpg",
-"https://cdn.pixabay.com/photo/2014/12/15/17/16/pier-569314_960_720.jpg"
+	"https://photos.app.goo.gl/3SxFvGnJx39MAsnWA",
+	"https://photos.app.goo.gl/d5hKgYMoDhq3tHD29",
+	"https://photos.app.goo.gl/8BxmVFzQvpJVzw5f6",
+	"https://photos.app.goo.gl/Z4R7jhTscezuoKfD6"
 
 ]
 
