@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 # list of cat images
 images = [
-"https://drive.google.com/open?id=1RSXzXfUPxr6kGophTV7jZwmYyYDc7uDX",
-"https://drive.google.com/open?id=1vVX0hUBcuJBILQhrkZ7WDufTp7slBh9T",
-"https://drive.google.com/open?id=1P1__YGPcl3sSdOBnqenQVvMv8xXjKS4n",
-"https://drive.google.com/open?id=19PVegl47Ix193CdoXuCgIO1z60_arOf9"
-
+"https://drive.google.com/file/d/19PVegl47Ix193CdoXuCgIO1z60_arOf9/view?usp=sharing",
+"https://drive.google.com/file/d/19PVegl47Ix193CdoXuCgIO1z60_arOf9/view?usp=sharing",
+"https://drive.google.com/file/d/1P1__YGPcl3sSdOBnqenQVvMv8xXjKS4n/view?usp=sharing",
+"https://drive.google.com/file/d/1vVX0hUBcuJBILQhrkZ7WDufTp7slBh9T/view?usp=sharing",
+"https://drive.google.com/file/d/1RSXzXfUPxr6kGophTV7jZwmYyYDc7uDX/view?usp=sharing"
 ]
 
 @app.route('/')
