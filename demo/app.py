@@ -5,7 +5,10 @@ app = Flask(__name__)
 
 # list of Leh Ladaakh
 images = [
-"https://drive.google.com/file/d/19PVegl47Ix193CdoXuCgIO1z60_arOf9/view?usp=sharing"
+"https://drive.google.com/uc?export=view&id=19PVegl47Ix193CdoXuCgIO1z60_arOf9",
+"https://drive.google.com/uc?export=view&id=1P1__YGPcl3sSdOBnqenQVvMv8xXjKS4n",
+"https://drive.google.com/uc?export=view&id=1vVX0hUBcuJBILQhrkZ7WDufTp7slBh9T",
+"https://drive.google.com/uc?export=view&id=1RSXzXfUPxr6kGophTV7jZwmYyYDc7uDX"
 ]
 
 @app.route('/')
